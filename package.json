@@ -1,0 +1,40 @@
+{
+  "name": "memoize-proxy",
+  "version": "0.0.0",
+  "description": "provides a proxy for memoizing functions",
+  "repository": "flipactual/memoize-proxy",
+  "license": "MIT",
+  "author": {
+    "name": "Flip",
+    "id": 1306968,
+    "url": "https://github.com/flipactual"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=html ava && open ./coverage/index.html",
+    "codecov": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "lint": "eslint .",
+    "readme": "emdaer",
+    "compile": "babel src -d lib",
+    "prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "codecov": "^1.0.1",
+    "emdaer": "^0.3.2",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-ava": "^3.0.0",
+    "eslint-plugin-import": "^1.14.0",
+    "nyc": "^8.1.0"
+  },
+  "ava": {
+    "verbose": true
+  }
+}

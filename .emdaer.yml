@@ -1,0 +1,20 @@
+- title: true
+- shields:
+    style: 'flat-square'
+    shields:
+      - alt: 'flipactual'
+        image: 'badge/😋-flipactual-218AC7.svg'
+        link: 'https://www.flipactual.com/'
+      - alt: 'Travis'
+        image: 'travis/flipactual/memoize-proxy.svg'
+        link: 'https://travis-ci.org/flipactual/memoize-proxy/'
+      - alt: 'Node'
+        image: 'node/v/memoize-proxy.svg'
+        link: 'http://npmjs.com/package/memoize-proxy'
+      - alt: 'NPM'
+        image: 'npm/v/memoize-proxy.svg'
+        link: 'http://npmjs.com/package/memoize-proxy'
+- text: 'provides a proxy for memoizing functions'
+- jsdoc: './src/index.js'
+- include: './docs/scripts.md'
+- license: true
