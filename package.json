@@ -1,7 +1,7 @@
 {
   "name": "memoize-proxy",
-  "version": "0.0.2",
-  "description": "provides a proxy for memoizing functions",
+  "version": "0.0.3",
+  "description": "Memoize functions",
   "repository": "flipactual/memoize-proxy",
   "license": "MIT",
   "author": {
