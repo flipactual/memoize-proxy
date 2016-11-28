@@ -6,7 +6,7 @@
 [![Node](https://img.shields.io/node/v/memoize-proxy.svg?style=flat-square)](http://npmjs.com/package/memoize-proxy)
 [![NPM](https://img.shields.io/npm/v/memoize-proxy.svg?style=flat-square)](http://npmjs.com/package/memoize-proxy)
 
-provides a proxy for memoizing functions
+Memoize functions
 
 <a name="MemoizeProxy"></a>
 

@@ -17,7 +17,7 @@
       - alt: 'NPM'
         image: 'npm/v/memoize-proxy.svg'
         link: 'http://npmjs.com/package/memoize-proxy'
-- text: 'provides a proxy for memoizing functions'
+- text: 'Memoize functions'
 - jsdoc: './src/index.js'
 - include: './docs/scripts.md'
 - license: true
