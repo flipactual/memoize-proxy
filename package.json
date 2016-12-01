@@ -1,6 +1,6 @@
 {
   "name": "memoize-proxy",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Memoize functions",
   "repository": "flipactual/memoize-proxy",
   "license": "MIT",
@@ -15,8 +15,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "nyc ava",
-    "coverage": "nyc report --reporter=html ava && open ./coverage/index.html",
-    "codecov": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "coverage": "nyc --reporter=html ava && open ./coverage/index.html",
+    "codecov": "nyc --reporter=text-lcov > coverage.lcov && codecov",
     "lint": "eslint .",
     "readme": "emdaer",
     "compile": "babel src -d lib",
@@ -30,9 +30,9 @@
     "emdaer": "^0.3.2",
     "eslint": "^3.4.0",
     "eslint-config-airbnb-base": "^5.0.3",
-    "eslint-plugin-ava": "^3.0.0",
+    "eslint-plugin-ava": "^3.1.1",
     "eslint-plugin-import": "^1.14.0",
-    "nyc": "^8.1.0"
+    "nyc": "^10.0.0"
   },
   "ava": {
     "verbose": true
